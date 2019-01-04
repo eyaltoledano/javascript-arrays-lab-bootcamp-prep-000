@@ -22,4 +22,3 @@ function appendKitten(name) {
   kitties.push(name)
   return kitties
 }
-
