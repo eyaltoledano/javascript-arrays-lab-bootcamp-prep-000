@@ -18,7 +18,7 @@ function destructivelyRemoveFirstKitten(name) {
 }
 
 function appendKitten(name) {
-  var kitties = ['${name}']
+  var kitties = [name]
   kitties.unshift(kittens)
   return kitties
 }
